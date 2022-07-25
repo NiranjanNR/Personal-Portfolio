@@ -1,0 +1,28 @@
+.fadeInLeft{
+   animation: fadeInLeft 1.2s both; 
+ } 
+
+ @keyframes fadeInLeft {
+   0% {
+       opacity: 0;
+       transform: translateX(-50px);
+   }
+   100% {
+       opacity: 1;
+       transform: translateX(0);
+   }
+ }
+ .fadeInR{
+    animation: fadeInR 1.2s both; 
+  } 
+ 
+  @keyframes fadeInR {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }

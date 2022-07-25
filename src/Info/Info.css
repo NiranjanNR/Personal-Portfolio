@@ -1,0 +1,18 @@
+.fadeInB{
+    animation: fadeInB 1.2s both; 
+  } 
+ 
+  @keyframes fadeInB {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+
+  .take{
+    min-height: 2700px;
+  }
